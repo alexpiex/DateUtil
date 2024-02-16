@@ -13,3 +13,6 @@ DateUtil.setDatePattern("dd/MM/yyyy HH:mm:ss");
 System.out.println("Current String: "+ DateUtil.currentString());
 System.out.println("Current Date: "+ DateUtil.todayString());
 System.out.println("Data Ieri: "+DateUtil.yesterday());
+
+
+mvn install:install-file -Dfile=<path-to-file> -DgroupId=site.cnkj -DartifactId=CommonUtil -Dversion=1.0 -Dpackaging=jar
