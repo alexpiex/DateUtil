@@ -1,5 +1,6 @@
 # DateUtil
 
+```java
 Esempio di utilizzo:
 
 String dataOracle = "2015-02-28 11:13:11.0";
@@ -13,6 +14,8 @@ DateUtil.setDatePattern("dd/MM/yyyy HH:mm:ss");
 System.out.println("Current String: "+ DateUtil.currentString());
 System.out.println("Current Date: "+ DateUtil.todayString());
 System.out.println("Data Ieri: "+DateUtil.yesterday());
+'''
 
+## License
 
-mvn install:install-file -Dfile=<path-to-file> -DgroupId=site.cnkj -DartifactId=CommonUtil -Dversion=1.0 -Dpackaging=jar
+[MIT](https://choosealicense.com/licenses/mit/)
