@@ -15,7 +15,7 @@ DateUtil.setDatePattern("dd/MM/yyyy HH:mm:ss");
 System.out.println("Current String: "+ DateUtil.currentString());
 System.out.println("Current Date: "+ DateUtil.todayString());
 System.out.println("Data Ieri: "+DateUtil.yesterday());
-'''
+```
 
 ## License
 
