@@ -1,8 +1,9 @@
 # DateUtil
+Libreia per la gestione delle date.
+
+## Esempio di utilizzo:
 
 ```java
-Esempio di utilizzo:
-
 String dataOracle = "2015-02-28 11:13:11.0";
 SimpleDateFormat sdf = new SimpleDateFormat();
 sdf.applyPattern("yyyy-MM-dd HH:mm:sss");
